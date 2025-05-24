@@ -1,0 +1,21 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A command-line CMS for managing employee database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "seed": "psql -U postgres -d employee_db -f db/schema.sql && psql -U postgres -d employee_db -f db/seeds.sql"
+  },
+  "keywords": ["CMS", "employee", "database", "postgresql"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
