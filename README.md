@@ -232,7 +232,7 @@ Contributions are welcome! Please follow these steps:
 
 For questions or issues, please contact:
 
-- GitHub: [@YOUR_USERNAME](https://github.com/jadenszewczak)
+- GitHub: [jadenszewczak](https://github.com/jadenszewczak)
 - Email: [jaden.szewczak@wakefern.com](mailto:jaden.szewczak@wakefern.com)
 
 ## License
